@@ -1,7 +1,7 @@
-const fs = require('fs');
+/*const fs = require('fs');
 const readFile = fs.createReadStream('./01-read-file/text.txt')
-readFile.on('data', chunk => console.log(chunk.toString()));
-/*
+readFile.on('data', chunk => console.log(chunk.toString())); */
+
 const fs = require('fs');
 const path = require('path');
 fs.readFile(
@@ -11,4 +11,4 @@ fs.readFile(
         if (err) throw err;
         console.log(data);
     }
-);*/
+);
